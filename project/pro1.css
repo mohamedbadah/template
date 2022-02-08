@@ -1,0 +1,57 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    height:2000px;
+    background-color:#EEE;
+}
+/*navbar*/
+.navbar-header {
+    float:right;
+}
+.navbar{
+    padding:10px;
+    margin:0;
+}
+/*End navbar*/
+/*image*/
+.image1{
+   background:url('images/back.jpg');
+   background-size: 100% 200px;
+   height:200px;
+   width:100%;
+
+}
+.image1 .p{
+    font-size:70px;
+    float:right;
+    margin-right:100px;
+    margin-top:30px;
+    font-style: italic;
+    color:black;
+    
+}
+.image1 .p span{
+color:#FFF;
+}
+/* End image*/
+.w60{
+    width:60%;
+    float:right;
+
+}
+.carousel-inner .item{
+    float:right;
+    margin-right:50px;
+}
+/*END IMAGE*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+/*start default theme*/
+/* active link */
+.navbar-inverse .navbar-nav > .active > a,
+ .navbar-inverse .navbar-nav > .active > a:hover,
+  .navbar-inverse .navbar-nav > .active > a:focus,
+  .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:focus,.dropdown-menu .divider,
+    .carousel-indicators .active,.postion-box .glyphicon-home{
+		 background-color: #F00;
+              }
+ .navbar-inverse .navbar-brand span,.about h1 span,
+ .Testimonials span,.footer h3,.footer .copyright span{
+                   
+		    color:#F00;
+		  }
+    .postion-box .color-option,.Testimonials .carousel-indicators li.active{
+			border: 3px solid #F00;
+		}
+		/*dropdown menu*/
+	.dropdown-menu{
+		    border-top:3px solid #F00;
+		     }
+ /*End default theme*/

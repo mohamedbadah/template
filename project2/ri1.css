@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#eee;
+    
+}
+.navbar{
+    padding:30px;
+    border-bottom: 1px solid #ccc;
+}
+.navbar-header .navbar-brand{
+    font-size:50px;
+}
+.navbar-header .navbar-brand span{
+    color:#00F;
+}
+a{
+    color: #333;
+}
+/*End navbar*/
+.wRight img{
+    float:left;
+    margin-left: 20px;
+}
+.wRight .o{
+    float:left;
+}
+.ol li{
+    margin: 20px;
+    font-size: 15px;
+}
+.ol2 li{
+    margin: 20px;
+    font-size: 15px;
+}
+.rig1{
+  float:right;
+}
+.f{
+    margin-top: 40px;
+    background-color:#f0f;
+}
+.m{
+    margin-top:50px;
+    min-width: 100%;
+    min-height: 1px;
+    border-top: 1px solid #ccc;
+    
+
+}
+.k{
+    float:right;
+}
+footer{
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+.r{
+    font-size: 40px;
+}

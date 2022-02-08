@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.os{
+			background-color:#333;
+			color:#FFF;
+			margin-bottom: 10px;
+			padding: 10px;
+		}
+		.new{
+			background-color: blue;
+			color: #FFF;
+
+		}
+		.warning{
+			color: red;
+			font-weight: bold;
+			font-size: 20px;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!--First Mobile meta-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6 hidden-md">
+  	<div class="os">
+  	This Div Will be Hidden in meduim screen<br>
+  	this is Div
+  	
+  	</div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6 visible-md-block">
+  	<div class="os new">
+  	This Div Will be visible only in meduim screen
+  	</div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	this is Our Testing Div
+  	</div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	this is Our Testing Div
+  </div>
+  </div>
+   <div class="clearfix "></div>
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	under this is long Div
+  	</div>
+  </div>
+
+   <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	this is Our Testing Div
+  	</div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	this is Our Testing Div
+  </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+  	<div class="os">
+  	this is Our Testing Div
+  	</div>
+  	<div class="warning visible-xs">Your Screen Is Too Small</div>
+  </div>
+</div>
+<script src="../jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

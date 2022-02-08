@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#eee;
+    
+}
+.navbar{
+    padding:30px;
+    border-bottom: 1px solid #ccc;
+}
+.navbar-header .navbar-brand{
+    font-size:50px;
+}
+.navbar-header .navbar-brand span{
+    color:#00F;
+}
+a{
+    color: #333;
+}
+.wRight img{
+    float:left;
+    margin-left: 20px;
+}
+.wRight .o{
+    float:left;
+}
+.ol li{
+    margin: 10px;
+}
+li{
+    margin:10px;
+}
+.ol2 li{
+    margin:10px;
+}
+.rig1{
+  float:right;
+}
